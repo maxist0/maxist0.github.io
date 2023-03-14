@@ -1,0 +1,55 @@
+
+
+body {
+  min-height: 100vh;
+  background-image: url(../images/about.jpg);
+  max-width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0; 
+  padding: 0;
+  overflow-x: hidden;
+}
+.wrapper{
+  z-index: 100;
+  min-height: 100vh;
+  max-height: 90%;
+ 
+}
+.header {
+  text-align: center;
+  color: #333;
+  font-family: TimesNewRoman;
+  font-weight:  bold;
+  font-size: 20px;
+  opacity: 1;
+  z-index: 100;
+  text-decoration: underline overline;
+  margin-top: 100px;
+}
+.kasten {
+  width: 300px;
+  margin-top: 250px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: #333;
+  text-align: center;
+  opacity: 0.8;
+}
+.steck {
+  
+  text-align: center;
+  justify-content: center;
+  color: white;
+  padding-top: 10px;
+}
+
+
+
+.container {
+
+  justify-content: center;
+  text-align: center;
+}

@@ -1,0 +1,222 @@
+
+
+
+body {
+  
+  min-height: 100vh;
+  max-width: 100%;
+  margin: 0; 
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.kopf {
+
+  text-align: center;
+  color: grey;
+  font-family: TimesNewRoman;
+  font-weight:  bold;
+  font-size: 20px;
+  opacity: 1;
+  z-index: 100;
+  padding-top: 100px;
+}
+
+
+
+.stories {
+  height: auto;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  padding: 25px;
+  
+
+}
+
+.card img {
+
+  height:300px;
+  width: auto;
+}
+
+.card iframe {
+
+  height: 300px;
+  width: auto;
+}
+
+
+.wrapper{
+
+  min-height: 100vh;
+  max-height: 90%;
+ background-image: url(../images/map2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.headline h1, h2, h3{
+
+  color: #BDBDBD;
+  text-align: center;
+  justify-content: center;
+  left: 50%;
+}
+
+
+/***Marokko Container***/
+.marokko-container {
+
+  display: flex;
+  text-align: center;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+.marokko-container li {
+
+  border-radius: 12px;
+  width: 16px;
+  height: 16px;
+  background-color: #404040;
+  opacity: 0.25;
+}
+
+.marokko-container img {
+
+  height: 900px;
+  width: 100%;
+
+}
+
+@media screen and (max-width: 500px) {
+
+  .marokko-container img {
+
+    max-height: 300px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+
+  .marokko-1{
+
+    max-height: 300px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+
+  .marokko-container{
+
+    max-height: 300px;
+  }
+}
+}
+
+.marokko-container iframe {
+
+  height: auto;
+  width: 400px;
+}
+
+.marokko-1 {
+
+ background-color: white;
+  flex: 1;
+  color: white;
+  order: 1;
+  height: 900px;
+  text-align: center;
+  opacity: 1;
+
+}
+
+.control-wuste span {
+
+
+  border: 2px solid white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  opacity: 0.3;
+}
+
+/*** Marokko Ende**/
+
+/***Afrika Container***/
+.afrika-container {
+
+  display: flex;
+  text-align: center;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+.afrika-container li {
+
+  border-radius: 12px;
+  width: 16px;
+  height: 16px;
+  background-color: #404040;
+  opacity: 0.25;
+}
+
+.afrika-container img {
+
+  height: 900px;
+  width: 100%;
+
+}
+
+@media screen and (max-width: 500px) {
+
+  .afrika-container img {
+
+    max-height: 300px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+
+  .afrika-1{
+
+    max-height: 300px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+
+  .afrika-container{
+
+    max-height: 300px;
+  }
+}
+}
+
+.afrika-1 {
+
+ background-color: white;
+  flex: 1;
+  color: white;
+  order: 1;
+  height: 900px;
+  text-align: center;
+  opacity: 1;
+}
+
+.control-afrika span {
+
+
+  border: 3px solid white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  opacity: 0.6;
+}
+
+/*** afrika Ende**/

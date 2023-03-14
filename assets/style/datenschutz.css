@@ -1,0 +1,55 @@
+
+
+
+body {
+  
+  min-height: 100vh;
+  max-width: 100%;
+  margin: 0; 
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.wrapper{
+  z-index: 100;
+  min-height: 100vh;
+  max-height: 90%;
+ 
+}
+
+
+.container {
+
+  margin-top: 100px;
+  background-color: white;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+
+.container h1, h2, h3{
+
+  font-size: 300%;
+
+}
+
+.container a {
+
+  
+  font-size: 100%;
+}
+
+@media screen and (max-width: 580px) {
+
+
+.container h1, h2, h3{
+
+  font-size: 120%;
+}
+
+.container a {
+
+  font-size: 45%;
+}
+
+}
