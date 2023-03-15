@@ -5,7 +5,7 @@
 
 .foter{
 
-  background-color: #333;
+  background-color: #007bff;
   width: 100%;
   margin-bottom: -10px;
   text-align: center;
@@ -34,8 +34,8 @@
 
 .foter_button {
   display: inline-block;
-  border-radius: 4px;
-  background-color: grey;
+  border-radius: 10px;
+  background-color: #403f3d;
   border: none;
   color: #FFFFFF;
   text-align: center;
@@ -47,13 +47,13 @@
   width: 130px;
 }
 .foter_button:hover {
-  background-color: #3e8e41;
+  background-color: #05445E;
   border: none;
 
 }
 
 .foter_button:active {
-  background-color: #3e8e41;
+  background-color: #05445E;
   box-shadow: 0 5px #666;
   transform: translateY(6px);
 }
