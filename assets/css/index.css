@@ -1,0 +1,217 @@
+
+
+
+header{
+	
+    background: grey;
+    background-image: url("../images/network.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+    height: 600px;
+    width: 100vw;
+    color: white;   
+}
+
+header .header-main {
+    position: relative;
+    height: 80%
+}
+
+header .header-main .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+header .header-main .container h1 {
+    margin-bottom: 2rem;
+}
+
+header .header-main .container p {
+    max-width: 600px;
+    display: block;
+    margin: auto;
+}
+
+@media (min-width: 768px) {
+    header {
+        height:70vh;
+    }
+
+    header .header-top img.brand-icon {
+        margin-right: 1rem;
+    }
+}
+
+section#bar .content {
+    margin-top: -82px;
+    background-color: #fff;
+    border-radius: 30px;
+    -webkit-box-shadow: 0px 15px 35px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 15px 35px 0px rgba(0,0,0,0.1);
+  
+}
+
+section#bar .content .column {
+    padding: 30px;
+    text-align: center;
+}
+
+section#bar .content .column .icon-container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0.5rem;
+}
+
+
+section#projects {
+    padding: 70px 30px;
+	background-color:#f2f2f2;
+    
+}
+
+section#projects {
+	
+	
+	
+	text-align: center;
+}
+
+section#projects .icon-container-large,section#projects .badges {
+    margin-bottom: 26px;
+}
+
+section#projects .mb-custom {
+    margin-bottom: 70px;
+}
+
+@media (min-width: 992px) {
+    section#projects .mb-custom {
+        margin-bottom:0px;
+    }
+}
+
+section#about {
+    padding: 70px 30px;
+    text-align: center;
+}
+
+section#about .heading {
+    margin-bottom: 60px;
+}
+
+section#about .heading h2 {
+    margin-bottom: 1rem;
+}
+
+section#about .heading p {
+    display: block;
+    max-width: 660px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section#about .content p {
+    color: #a3a3a3;
+}
+
+section#about .content img {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    border-radius: 100px;
+    margin-bottom: 27px;
+    
+}
+
+section#about .content .icon-container-link {
+    display: inline-block;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+
+section#certificate {
+    padding: 170px 30px 70px 30px;
+    text-align: center;
+	background-color: #fffff;
+}
+
+section#certificate .heading {
+    max-width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+}
+
+section#certificate .heading p {
+    color: #a3a3a3;
+}
+
+section#certificate .icon-row {
+    display: block;
+    max-width: 600px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto
+}
+
+section#certificate .icon-row img {
+    max-width: 50px;
+    margin: 25px;
+	
+    
+}
+
+
+
+section#certificate .link-row:hover {
+    transform: scale(1.2, 1.2);
+	
+}
+
+section#certificate .link-row{
+    transition: transform 200ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+	padding-left: 25%;
+	text-align: left;
+	background-color: #fafafa;
+	 -webkit-box-shadow: 0px 15px 35px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 15px 35px 0px rgba(0,0,0,0.1);
+		
+}
+section#certificate .link-row a{
+	
+	text-align: left;
+}
+
+
+@media (max-width: 674px) {
+    
+	section#certificate .link-row{
+    
+	margin-left: -100px;
+	text-align: left;
+		
+}
+}
+
+
+
+
+footer#footer {
+    padding: 70px 30px;
+    background-color: #f2f2f2;
+}
+
+footer#footer a, footer#footer p {
+    font-weight: 300;
+    color: #fffff;
+    display: block;
+}
+
+footer#footer a:hover,footer#footer a:focus,footer#footer a:active {
+    color: #52ab98;
+}
